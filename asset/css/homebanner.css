@@ -1,0 +1,48 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ .bgClr{
+    background-color:  #F5F7FA !important;
+ }
+ .delevPara{
+    font-weight:bold !important;
+ }
+ .cardBg{
+    background-image: url('../img/bookimg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%; /* 100% viewport height */
+    border-radius: 20px;
+ }
+ .viewBtn{
+   border-radius: 20px !important;
+ }
+ .cardBg:hover{
+   transform: scale(1.1);
+   overflow: hidden;
+   transition: transform 1.9s;
+ }
+ .print{
+   color: #7000FE !important;
+ }
+.productsDiv:hover{
+   color: #7000FE !important;
+}
+.imageBorder{
+   /* border-radius: 20px !important; */
+   /* border: 1px solid red; */
+   height: 300px;
+   width: 100%;
+   object-fit: cover;
+   background-repeat: no-repeat;
+}
+.cardRadius{
+   border-radius: 22px !important;
+  
+}
+ 
+
+

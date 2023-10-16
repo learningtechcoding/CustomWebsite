@@ -3,28 +3,54 @@
     padding: 0px;
     box-sizing: border-box;
 }
+:root {
+    
+   --navBack: #4b4b4b;
+   --spanClr: #ffb308;
+ }
+
+
  .bgClr{
     background-color:  #F5F7FA !important;
  }
  .delevPara{
     font-weight:bold !important;
  }
- .cardBg{
-    background-image: url('../img/bookimg.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 100%; /* 100% viewport height */
-    border-radius: 20px;
+ .phone{
+   background-color: var(--spanClr);
+   border-radius: 10px;
  }
- .viewBtn{
-   border-radius: 20px !important;
- }
- .cardBg:hover{
-   transform: scale(1.1);
-   overflow: hidden;
-   transition: transform 1.9s;
- }
+  /* .whatspp{
+   background-color: green !important;
+   text-decoration: none;
+  } */
+
+.whatsappimg{
+   height: 40px;
+}
+.navClr{
+   background-color: var(--navBack) !important;
+}
+.inputField{
+   border: none !important;
+   outline: none !important;
+   border-radius: 15px;
+}
+.inputField:focus{
+   border: none !important;
+   box-shadow: none !important;
+   outline: none !important;
   
-
-
+}
+.searchIcon:hover{
+cursor: pointer;
+}
+.searchDiv{
+   background-color: transparent;
+   /* border: 1px solid red; */
+   border-radius: 15px;
+}
+.sliderimg{
+   height: 450px;
+   width: 100%;
+}
